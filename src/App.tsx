@@ -5,6 +5,8 @@ import { Header } from './components/Header'
 import { Presentation } from './screens/Presentation'
 import { About } from './screens/About'
 import { Experiences } from './screens/Experiences'
+import { Projects } from './screens/Projects'
+import { Skills } from './screens/Skills'
 
 function App() {
   return (
@@ -12,7 +14,9 @@ function App() {
       <Header/>
       <Presentation/>
       <About/>
+      <Skills/>
       <Experiences/>
+      <Projects/>
     </ThemeProvider>
   )
 }

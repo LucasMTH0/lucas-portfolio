@@ -7,6 +7,7 @@ import styled from "styled-components";
 export const Title = styled.h1`
     color: ${({ theme }) => theme.colors.dark_gold};
     font-weight: bold;
+    font-size: 3rem;
 `
 
 
@@ -27,6 +28,9 @@ export const Ionic = styled(IoLogoIonic)`
     color: #0054e9;
     font-size: 35px;
     cursor: pointer;
+    &:hover{
+        
+    }
 `
 
 export const Sass = styled(FaSass)`

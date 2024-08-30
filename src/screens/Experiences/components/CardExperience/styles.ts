@@ -2,7 +2,7 @@ import styled from "styled-components";
 export const Container = styled.article`
     display: flex;
     flex-direction: column;
-    width: 690px;
+    justify-content: space-between;
     border: 1px solid black;
     box-shadow: 1px 1px 1px rgba(0,0,0,0.7);
     border-radius: 12px;
