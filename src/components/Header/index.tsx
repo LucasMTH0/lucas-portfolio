@@ -5,11 +5,11 @@ export function Header() {
         <Container>
             <LogoImage src={Logo}/>
             <ContainerLinks>
-                <Item>Sobre Mim</Item>
-                <Item>Habilidades</Item>
-                <Item>Experiências</Item>
-                <Item>Projetos</Item>
-                <Item>Contato</Item>
+                <Item href="#about">Sobre Mim</Item>
+                <Item href="#skills">Habilidades</Item>
+                <Item href="#experiences">Experiências</Item>
+                <Item href="#projects">Projetos</Item>
+                <Item href="#about">Contato</Item>
             </ContainerLinks>
         </Container>
     )

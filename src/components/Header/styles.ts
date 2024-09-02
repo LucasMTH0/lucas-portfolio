@@ -16,9 +16,8 @@ export const ContainerLinks = styled.nav`
     gap: 18px;
 `
 
-export const Item = styled.li`
+export const Item = styled.a`
     text-decoration: none;
-    list-style: none;
     padding: 4px 0;
     cursor: pointer;
     border: 1px solid transparent;

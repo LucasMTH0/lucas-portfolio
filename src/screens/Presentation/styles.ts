@@ -1,8 +1,9 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const ContainerPresentation = styled.section`
     /* height: 100vh; */
     width: 100%;
+    margin-block: 2rem;
     /* display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,11 +29,17 @@ export const Wrapper = styled.div`
 
 export const Title = styled.h1`
     font-size: 48px;
+    margin-block: 5px;
     text-align: center;
 `
 
 export const SubTitle = styled.h2`
     font-size: 36px;
+    margin-block: 5px;
+    text-align: center;
+`
+
+export const Description = styled.h3`
     text-align: center;
 `
 
@@ -44,24 +51,33 @@ export const GoldBold = styled.strong`
 export const DownloadButton = styled.button`
     background: transparent;
     border: 2px solid ${( {theme} ) => theme.colors.dark_gold};
-    height: 1.8125rem;
-    font-size: 14px;
+    height:40px;
+    font-size: 17px;
+    font-weight: bold;
     display: flex;
+    gap: 14px;
     align-items: center;
     color: ${( {theme} ) => theme.colors.dark_gold};
     cursor: pointer;
     outline: none;
+    &:hover {
+        ${({ theme }) => css`
+            border: 2px solid ${ theme.colors.gold };
+            color: ${ theme.colors.gold};
+        `}
+    }
 `
 
 export const Image = styled.img`
-    width: 100%;
+    /* width: 100%; */
+    width: 465px;
     border-radius: 100%;
     border: 2px solid ${({ theme }) => theme.colors.dark_gold };
     overflow: hidden;
 `
 export const Link = styled.a `
     color: ${({ theme }) => theme.colors.dark_gold};
-    font-size: 29px;
+    font-size: 35px;
     margin: 2px 0;
     margin-right: 8px;
     cursor: pointer;

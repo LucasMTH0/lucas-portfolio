@@ -1,7 +1,7 @@
-import { Grid } from "@mui/material";
+import { Container, Grid } from "@mui/material";
 import { Title } from "../../components/styles";
 import { CardExperience } from "./components/CardExperience";
-import { Container } from "./styles";
+import { ContainerExperiences } from "./styles";
 
 export function Experiences() {
     const experiences = [
@@ -36,20 +36,22 @@ export function Experiences() {
 
     ]
     return (
-        <Container>
-            <Grid container spacing={2} >
-            <Title>Experiências</Title>
-                {
-                    experiences.map((experience) => {
-                        return (
-                            <Grid item xs={12} sm={12} md={6}>
-                                <CardExperience title={experience.title} enterprise={experience.enterprise} position={experience.position} period={experience.period} description={experience.description} />
-                            </Grid>
-                        )
-                    })
-                }
-            </Grid>
-  
-        </Container>
+        <ContainerExperiences id="experiences">
+            <Container>
+                <Title>Experiências</Title>
+                <Grid container spacing={2} >
+                    {
+                        experiences.map((experience) => {
+                            return (
+                                <Grid item xs={12} sm={12} md={6}>
+                                    <CardExperience title={experience.title} enterprise={experience.enterprise} position={experience.position} period={experience.period} description={experience.description} />
+                                </Grid>
+                            )
+                        })
+                    }
+                </Grid>
+    
+            </Container>
+        </ContainerExperiences>
     )
 }

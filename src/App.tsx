@@ -12,11 +12,13 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <Header/>
-      <Presentation/>
-      <About/>
-      <Skills/>
-      <Experiences/>
-      <Projects/>
+      <main>
+        <Presentation/>
+        <About/>
+        <Skills/>
+        <Experiences/>
+        <Projects/>
+      </main>
     </ThemeProvider>
   )
 }

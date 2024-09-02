@@ -1,11 +1,14 @@
+import { Container } from "@mui/material";
 import { Title } from "../../components/styles";
-import { Container } from "./styles";
+import { ContainerProjects } from "./styles";
 
 export function Projects() {
     return (
-        <Container>
-            <Title>Projetos</Title>
-            
-        </Container>
+        <ContainerProjects id="projects">
+            <Container>
+                <Title>Projetos</Title>
+                
+            </Container>
+        </ContainerProjects>
     );
 }
