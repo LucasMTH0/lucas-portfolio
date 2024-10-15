@@ -12,7 +12,14 @@ export function About() {
                         <Content>
                             <Title >Sobre Mim</Title>
                             <Text>
-                                Sou um desenvolvedor que está sempre em busca de conhecimentos e aprimorar minhas habilidades, estou disposto a encarar qualquer desafio e ter bons resultados. Tenho 26 anos de idade e possuo aproximadamente 3 anos de experiência em desenvolvimento Front-End, minhas maiores habilidades são em HTML, CSS, Javascript, Typescript, Angular e Ionic, também possuo conhecimentos em React e React Native mas ainda não tive experiência em trabalho, apenas em estudos e projetos pessoais.
+                                Desenvolvedor Front-End com 3 anos de experiência com expertise em Angular, Typescript e Ionic, também possuo conhecimentos em React e React Native mas ainda não possuo experiência. Estou sempre em busca de novos conhecimentos e aprimorar minhas habilidades.
+                            </Text>
+                            <Text>
+                                Meu Objetivo é me especializar no Front-End e aprender a desenvolver também em Back-End, atualmente estou estudando sobre Node e Java.
+
+                            </Text>
+                            <Text>
+                                Estou na reta final da conclusão do curso de Sistemas da Informação na Universidade Veiga de Almeida e a expectativa de finalizar é em dezembro de 2024.
                             </Text>
                         </Content>
                     </Grid>

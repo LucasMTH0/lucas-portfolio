@@ -7,6 +7,12 @@ export const Container = styled.header`
     align-items: center;
     gap: 18px;
     padding: 12px;
+    @media screen and (width <= 768px){
+        & {
+            justify-content: center;
+
+        }
+    }
 `
 
 export const ContainerLinks = styled.nav`
@@ -14,6 +20,12 @@ export const ContainerLinks = styled.nav`
     align-items: center;
     justify-content: center;
     gap: 18px;
+
+    @media screen and (width <= 768px){
+        & {
+            display: none;
+        }
+    }
 `
 
 export const Item = styled.a`

@@ -18,13 +18,6 @@ export function CardExperience({ title, enterprise, position, period, descriptio
                 <Text>Descrição: {description}</Text>
             </div>
 
-            <ContainerExperiences>
-                <Angular />
-                <Typescript />
-                <Ionic />
-                <Tailwind />
-                <Sass />
-            </ContainerExperiences>
         </Container>
     )
 }

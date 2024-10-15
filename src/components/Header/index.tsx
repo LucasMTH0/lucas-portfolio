@@ -9,7 +9,7 @@ export function Header() {
                 <Item href="#skills">Habilidades</Item>
                 <Item href="#experiences">Experiências</Item>
                 <Item href="#projects">Projetos</Item>
-                <Item href="#about">Contato</Item>
+                <Item href="#contact">Contato</Item>
             </ContainerLinks>
         </Container>
     )

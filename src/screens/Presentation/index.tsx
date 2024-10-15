@@ -4,7 +4,7 @@ import User from '../../assets/my-person.jpg'
 import { Grid } from "@mui/material";
 import { FaFileDownload } from "react-icons/fa";
 export function Presentation(){
-    const idCV: string = "1WEp0mMxfzgXph220gVUI4KJXaQvNpvwj"
+    const idCV: string = "1cXyNIYiOMvsaqL8wKnkplB9dLRCXUfgM"
 
     function handleDownloadCV(){
         console.log("download")

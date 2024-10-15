@@ -10,6 +10,19 @@ export const Title = styled.h1`
     font-size: 3rem;
 `
 
+export const Link = styled.a `
+    color: ${({ theme }) => theme.colors.dark_gold};
+    font-size: 35px;
+    margin: 2px 0;
+    margin-right: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    &:hover{
+        color: ${({ theme }) => theme.colors.gold};
+
+    }
+`
+
 
 
 export const Angular = styled(DiAngularSimple)`

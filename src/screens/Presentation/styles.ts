@@ -3,7 +3,7 @@ import styled, { css } from "styled-components";
 export const ContainerPresentation = styled.section`
     /* height: 100vh; */
     width: 100%;
-    margin-block: 2rem;
+    padding-block: 5rem;
     /* display: flex;
     flex-direction: column;
     align-items: center;
@@ -51,6 +51,7 @@ export const GoldBold = styled.strong`
 export const DownloadButton = styled.button`
     background: transparent;
     border: 2px solid ${( {theme} ) => theme.colors.dark_gold};
+    border-radius: 7px;
     height:40px;
     font-size: 17px;
     font-weight: bold;

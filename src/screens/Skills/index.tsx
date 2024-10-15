@@ -5,7 +5,7 @@ import { Title } from "../../components/styles";
 
 export function Skills() {
     const skills = [
-        'Angular', 'CSS', 'HTML', 'Ionic', 'Javascript', 'Java', 'React', 'React Native', 'SCSS', 'Typescript', 'Tailwind'
+        'Angular', 'CSS3', 'HTML5', 'Ionic', 'Javascript', 'Java', 'Jest', 'React', 'React Native', 'SCSS', 'Typescript', 'Tailwind'
     ]
     return (
         <ContainerSkills id="skills">

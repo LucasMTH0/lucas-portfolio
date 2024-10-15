@@ -7,6 +7,7 @@ import { About } from './screens/About'
 import { Experiences } from './screens/Experiences'
 import { Projects } from './screens/Projects'
 import { Skills } from './screens/Skills'
+import { Contact } from './screens/Contact'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Skills/>
         <Experiences/>
         <Projects/>
+        <Contact/>
       </main>
     </ThemeProvider>
   )

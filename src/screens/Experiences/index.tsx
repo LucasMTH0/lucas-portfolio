@@ -17,21 +17,21 @@ export function Experiences() {
             enterprise: "Digital Business",
             position: "Desenvolvedor Front-End Jr.",
             period: "04/2022 - 03/2023",
-            description: "Sustentação do aplicativo auxiliadora predial onde foi feito a manutenção e adição de novas funcionalidades desenvolvendo em cordova e também pude auxiliar na construção do novo app feito em react native."
+            description: "Sustentação de aplicativo legado onde foi feito a manutenção e adição de novas funcionalidades desenvolvendo em Cordova, HTML5, CSS3 e Javascript e também pude auxiliar na construção do novo app feito em React Native."
         },
         {
             title: "Desenvolvedor Front-End",
             enterprise: "Techdog",
             position: "Desenvolvedor Front-End Jr.",
             period: "05/2021 - 04/2022",
-            description: "Sustentação e desenvolvimento de aplicações móveis e web utilizando HTML, CSS, Javascript e Typescript e as tecnologias do Angular, Ionic, Cordova e React Native."
+            description: "Sustentação e desenvolvimento de aplicações móveis e web utilizando HTML5, CSS3, SCSS, Javascript e Typescript e as tecnologias do Angular, Ionic, Cordova, Capacitor e React Native."
         },
         {
             title: "Desenvolvedor Front-End",
             enterprise: "Loja Interativa",
             position: "Desenvolvedor Front-End Jr.",
             period: "05/2021 - 04/2022",
-            description: "Sustentação e desenvolvimento de aplicações móveis e web utilizando HTML, CSS, Javascript e Typescript e as tecnologias do Angular, Ionic, Cordova e React Native."
+            description: "Experiência onde desenvolvi meus primeiros apps em Ionic com Angular, HTML5, CSS3 e Typescript, apesar dos desafios consegui desenvolver do zero meus primeiros apps. Durante o período também participei de construções de temas de landing pages em WordPress e de sustentação de projetos Angular."
         },
 
     ]
