@@ -1,5 +1,4 @@
-import { Bold, Container, ContainerExperiences, Text, Title } from "./styles";
-import { Angular, Ionic, Sass, Tailwind, Typescript } from "../../../../components/styles";
+import { Bold, Container, Text, Title } from "./styles";
 type ExperienceProps = {
     title: string;
     enterprise: string;
