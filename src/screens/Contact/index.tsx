@@ -7,7 +7,7 @@ export function Contact() {
        return (
               
               <Container id="contact">
-                     <Title >Links de contato</Title>
+                     <Title >Contato</Title>
                      <ContainerContact>
                             <Link href="https://www.linkedin.com/in/lucas-silva-783482202/" target="_blank">
                                    <BsLinkedin/>

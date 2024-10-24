@@ -8,6 +8,7 @@ export const Title = styled.h1`
     color: ${({ theme }) => theme.colors.dark_gold};
     font-weight: bold;
     font-size: 3rem;
+    text-align: center;
 `
 
 export const Link = styled.a `
@@ -17,11 +18,14 @@ export const Link = styled.a `
     margin-right: 20px;
     cursor: pointer;
     text-decoration: none;
+    
     &:hover{
         color: ${({ theme }) => theme.colors.gold};
 
     }
 `
+
+
 
 
 

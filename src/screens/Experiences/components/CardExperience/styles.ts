@@ -3,11 +3,10 @@ export const Container = styled.article`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 1px solid black;
-    box-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 2px 0px, rgba(0, 0, 0, 0.15) 0px 1px 3px 1px;
     border-radius: 12px;
     padding: 4px 8px;
-    height: 18.75rem;
+
 `
 export const Title = styled.h1`
     font-size: ${({ theme }) => theme.font_size.L}px;

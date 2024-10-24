@@ -1,7 +1,9 @@
 import styled from "styled-components";
 
 export const ContainerExperiences = styled.section`
-    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 `
 
 export const List = styled.div`
