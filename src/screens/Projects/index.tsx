@@ -12,7 +12,7 @@ export function Projects() {
       image:
         "https://i.pinimg.com/736x/fd/0c/91/fd0c91926d3e47dd21a9ff1514bb8b81.jpg",
       githubUrl: "https://github.com/LucasMTH0/FlixCatalog",
-      url: "https://flix-catalog-b4m16roo1-crvglucas-projects.vercel.app",
+      url: "https://flix-catalog.vercel.app",
     },
     {
       title: "Coffee-Shop",
@@ -21,7 +21,7 @@ export function Projects() {
       image:
         "https://i.pinimg.com/736x/7a/a7/a7/7aa7a7804a6f63c943ca53bf55b70747.jpg",
       githubUrl: "https://github.com/LucasMTH0/coffee-shop",
-      url: "https://coffee-shop-90t7dyjyp-crvglucas-projects.vercel.app"
+      url: "https://coffee-shop-azure-two.vercel.app"
     },
   ];
   return (
